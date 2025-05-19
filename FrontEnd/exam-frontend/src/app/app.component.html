@@ -1,0 +1,5 @@
+<h1>{{ title }}</h1>
+
+<pre *ngIf="apiSpec">{{ apiSpec | json }}</pre>
+
+<p *ngIf="!apiSpec">Chargement...</p>
